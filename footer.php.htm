@@ -1,0 +1,125 @@
+
+<!-- saved from url=(0051)http://www.camelot-enterprises.com/pages/footer.php -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1"><style type="text/css"></style></head><body><div id="footer_big">
+ <div class="footer_wrap">
+<div class="estimat_wrap_new">
+<div class="estimat_lft_new">
+<form action="http://www.camelot-enterprises.com/pages/contact_new2.php" method="post" name="myform" id="myform">
+
+ 
+          <h1>Camelot Estimate Form</h1>
+      <br>            
+              <li><label>Full Name:</label><input id="name" name="name" type="text" placeholder="  First Last " pattern="^[a-zA-Z&#39;&#39;-&#39;\s]{1,40}$" value="" required=""><div id="myform_name_errorloc" class="error_strings"></div> <table class="err1" id="nameerr"><tbody><tr><td style="height:100%"></td></tr></tbody></table></li>
+               <li> <label>Full Address:</label><input id="address" name="address" type="text" placeholder="  Street City Zip " pattern="^(?=.*\d)(?=.*[a-zA-Z ]+).*$" value="" required=""><div id="myform_address_errorloc" class="error_strings"></div> <table class="err2" id="addeerr"><tbody><tr><td style="height:100%"></td></tr></tbody></table></li>
+                <li><label>Phone Number:</label><input id="phone" name="phone" type="text" placeholder="  615 123 1234 " pattern="^(?:\(\d{3}\)|\d{3})[- ]?\d{3}[- ]?\d{4}$" value="" required=""><div id="myform_phone_errorloc" class="error_strings"></div><table class="err3" id="foneerr"><tbody><tr><td style="height:100%"></td></tr></tbody></table></li>
+                <li><label>Email:</label><input id="email" name="email" type="email" placeholder="  my@email.com"><table class="err4" id="mailerr"><tbody><tr><td style="height:100%"></td></tr></tbody></table></li>
+                <li><label>Service Requested:</label><select id="service" name="service" required="">
+<option value=""> -- Please select -- </option>
+<option value="Window Cleaning">Window Cleaning</option>
+<option value="Gutter Cleaning">Gutter Cleaning</option>
+<option value="Christmas Lighting">Christmas Lighting</option>
+<option value="Windows &amp; Gutters">Windows &amp; Gutters</option>
+<option value="All Three">All Three</option></select><div id="myform_service_errorloc" class="error_strings"></div><table class="err5" id="serverr"><tbody><tr><td style="height:100%;width:100%">'.$serverr.'</td></tr></tbody></table></li>
+        <li><label>How did you find us:</label><select id="choices" name="choices" required="">
+<option value=""> -- Please select -- </option>
+<option value="Internet Search">Internet Search</option>
+<option value="Referral from a Friend">Referral from a Friend</option>
+<option value="Received a Flyer">Received a Flyer</option>
+<option value="Seen our Truck">Seen our Truck</option>
+<option value="Seen a Yard Sign">Seen a Yard Sign</option></select><div id="myform_choices_errorloc" class="error_strings"></div><table class="err6" id="mkterr"><tbody><tr><td style="height:100%;width:100%">'.$choiceserr.'</td></tr></tbody></table></li>
+            
+          <input name="s1" type="submit" value="Submit">
+          
+          </form><script language="JavaScript" type="text/javascript" xml:space="preserve">//<![CDATA[
+//You should create the validator only after the definition of the HTML form
+  var frmvalidator  = new Validator("myform");
+  frmvalidator.EnableOnPageErrorDisplay();
+  frmvalidator.EnableMsgsTogether();
+
+  frmvalidator.addValidation("name","req","First AND Last Name");
+  frmvalidator.addValidation("name","fullname","First AND Last Name");
+
+  frmvalidator.addValidation("address","req","You forgot your Address");
+  frmvalidator.addValidation("address","address","Full Address Please");
+
+  frmvalidator.addValidation("phone","req","You forgot your Number");
+  frmvalidator.addValidation("phone","phone","All 10 Digits Please");
+
+  frmvalidator.addValidation("service","req","We'd Love to Know");
+  frmvalidator.addValidation("choices","req","We'd Love to Know");  
+//]]></script>  
+        </div><!--estimat_lft end-->
+        <div class="estimat_rgt">
+        <img src="./footer.php_files/estimate_pix.png" width="350" height="305" alt="estimae pic">
+        </div><!--estimat_rgt end-->
+    </div> 
+  <div class="footer_abt">
+<h4>About Us</h4>
+        <ul>
+            <li><a href="http://www.camelot-enterprises.com/pages/ethics_code.html">Code of Ethics</a></li>
+            <li><a href="http://www.camelot-enterprises.com/sitemap.html">Site map</a></li>
+            <li><a href="http://www.camelot-enterprises.com/pages/privacypolicy.html">Privacy Policy</a></li>
+            <li><a href="http://www.camelot-enterprises.com/pages/review_us.html"><b>Leave a Review</b></a></li>
+        </ul>
+    </div><!--footer_abt end-->
+   
+     <div class="footer_abt">
+      <h4>Contact Us</h4>
+        <ul>
+            <li><a href="tel:6158237425">615 310 4761</a></li>
+            <li>philip@camelot-enterprises.com</li>
+            <li>5708B Maxon Ave</li>
+            <li>Nashville, TN 37209</li>
+            
+        </ul>
+    </div><!--footer_contact end-->
+    
+    <div class="footer_abt">
+      <h4>Follow Us</h4>
+        <ul>
+          <li><a href="https://www.facebook.com/camelotwindowcleaning"><img src="./footer.php_files/fb.png" width="28" height="27"></a>Facebook</li>
+            <li><a href="https://www.twitter.com/CamelotCleaning"><img src="./footer.php_files/tw.png" width="28" height="27"></a>Twitter</li>
+            <li><a href="https://www.linkedin.com/in/camelotwindowcleaning"><img src="./footer.php_files/in.png" width="28" height="27"></a>Linked In</li>
+            <li><a href="http://www.yelp.com/biz/camelot-window-cleaning-nashville"><img src="./footer.php_files/yp.png" width="28" height="27"></a>Yelp</li>
+            
+        </ul>
+    </div><!--footer_contact end-->
+    <div class="footer_social"><form action="http://www.camelot-enterprises.com/pages/subscribe.php" method="post">
+    <img src="./footer.php_files/newsletter_icn.png">
+    <p>Enter your e-mail to receive our newsletter and special offers.</p>
+    <br><br><div style="width:260px;"><br><br>
+    <input type="text" name="subscriber" id="subscriber" value="" class="nb1"><input type="image" src="./footer.php_files/go.png" alt="submit">
+    </div></form>
+    </div><!--footer_social end-->
+  
+   <div id="hcard-Camelot-Window-Cleaning-Nashville-TN" class="vcard">
+  <img style="float:left; margin-right:4px" src="./footer.php_files/logo.png" alt="photo of Camelot Window Cleaning" class="photo">
+ <a class="url fn n" href="http://www.camelot-enterprises.com/">  <span class="given-name">Camelot Window Cleaning</span>
+  <span class="additional-name"></span>
+  <span class="family-name">Nashville TN</span>
+</a>
+ <a class="email" href="mailto:philip@camelot-enterprises.com">philip@camelot-enterprises.com</a>
+ <div class="adr">
+  <div class="street-address">5708B Maxon Ave</div>
+  <span class="locality">Nashville</span>
+, 
+  <span class="region">TN</span>
+, 
+  <span class="postal-code">37209</span>
+
+ </div>
+ <div class="tel">615-310-4761</div>
+<div><span class="category">Window Cleaning Services</span>, <span class="category">Gutter Cleaning Company</span></div>
+</div>
+
+    
+    <div class="copyrht">
+  <p>Copyright آ© 2013 Camelot Enterprises CORP. All Rights Reserved.</p>
+<span> </span>
+    </div><!--copyrht end-->
+    
+    
+ </div><!--footer_wrap end-->
+</div><!--footer end-->
+
+</body></html>
